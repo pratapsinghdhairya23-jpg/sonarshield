@@ -1,0 +1,16 @@
+numpy>=1.24
+pandas>=2.0
+Pillow>=10.0
+opencv-python-headless>=4.8
+scipy>=1.11
+streamlit>=1.32
+
+# Optional - enables the rich interactive Folium map on the Geospatial
+# Intelligence page. Without it, the app falls back to st.map() automatically.
+folium>=0.15
+streamlit-folium>=0.20
+
+# Optional - only required to load/run a real trained YOLO-Seg checkpoint.
+# The app runs fully in Prototype Mode without these installed.
+# torch>=2.2
+# ultralytics>=8.2
