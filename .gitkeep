@@ -1,4 +1,0 @@
-Place research-dataset imagery/annotations for this dataset here.
-This folder is intentionally empty in the delivered project — no dataset
-files are bundled. backend/dataset_manager.py will detect images placed
-here and report accurate counts on the Research & Datasets page.
